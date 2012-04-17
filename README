@@ -12,6 +12,8 @@ silver prices. it get the currunt gold and silver price from the multicomodity e
 
 all the gold and silver prices are from India only.
 
+to use these classes just import these classes to your project and use the public methods available with them.
+
 although all the source code is free, please be generous enough to drop an email informing me that you are using them; it would be a nice feedback.
 
 please email me if there are any errors on bhatt.umang7@gmail.com
