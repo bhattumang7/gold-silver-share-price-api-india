@@ -1,0 +1,17 @@
+this is a read me file for the api.
+
+this api will allow you to search for a stcok by name.
+it also allows querying of the currunt price of the stock whose stock code is provided.
+
+all the stock related information is taken from the yahoo stock webservice.
+user need not to parse the json, it will return the pojos. very simple.
+
+
+there are also two classes available which allows you to query for the currunt gold and 
+silver prices. it get the currunt gold and silver price from the multicomodity exchange india.
+
+all the gold and silver prices are from India only.
+
+although all the source code is free, please be generous enough to drop an email informing me that you are using them; it would be a nice feedback.
+
+please email me if there are any errors.
