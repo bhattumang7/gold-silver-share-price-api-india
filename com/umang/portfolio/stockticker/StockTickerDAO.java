@@ -7,8 +7,7 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.util.Date;
 import java.util.HashMap;
-//import org.apache.commons.logging.Log;
-//import org.apache.commons.logging.LogFactory;
+
 public class StockTickerDAO
 {
     // private static final Log log = LogFactory.getLog(StockTickerDAO.class);
@@ -88,8 +87,7 @@ public class StockTickerDAO
 
     public static void main(String args[])
     {
-        StockTickerDAO temp = new StockTickerDAO();
-        StockBean s = temp.getStockPrice("RELINFRA.NS");
+        StockBean s = StockTickerDAO.getStockPrice("RELINFRA.NS");
         System.out.println(s.getPrice());
     }
 }

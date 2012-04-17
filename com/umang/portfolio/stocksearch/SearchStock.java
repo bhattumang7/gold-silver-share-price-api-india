@@ -1,7 +1,4 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package com.umang.portfolio.stocksearch;
 
 import java.io.BufferedReader;
@@ -52,7 +49,8 @@ public class SearchStock
      * @param name name of the quote
      * @return will return the url formed to be passed further
      */
-    private static String formURLForNameSearch(String name)
+    @SuppressWarnings("deprecation")
+	private static String formURLForNameSearch(String name)
     {
         
         return "http://autoc.finance.yahoo.com/autoc?query=" + URLEncoder.encode(name).toString() + "&callback=YAHOO.Finance.SymbolSuggest.ssCallback";
@@ -60,7 +58,7 @@ public class SearchStock
 
     /**
      *
-     * @param response is the page contentt that we have got from the page
+     * @param response is the page content that we have got from the page
      * @return will return the linked list of SearchStock bean type.
      */
     private static LinkedList<SearchStockBean> getStockBeanFromString(String response)
