@@ -67,11 +67,4 @@ public class SearchStockBean
     private String exhange;
     private String exchDisp;
     private String type;
-    /*
-    "symbol" "X"
-"name"  "United States Steel Corp."
-"exch"  "NYQ"
-"type"  "S"
-"exchDisp" "NYSE"
-"typeDisp" "Equity"*/
 }
