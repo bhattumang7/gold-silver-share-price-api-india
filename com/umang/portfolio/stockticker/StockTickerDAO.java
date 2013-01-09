@@ -10,8 +10,6 @@ import java.util.HashMap;
 
 public class StockTickerDAO
 {
-    // private static final Log log = LogFactory.getLog(StockTickerDAO.class);
-
     private static final StockTickerDAO stockDAO = new StockTickerDAO();
     private static HashMap<String, StockBean> stocks = new HashMap<String, StockBean>();
     private static final long TWENTY_MIN = 1200000;

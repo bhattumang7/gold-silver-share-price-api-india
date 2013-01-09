@@ -1,7 +1,5 @@
 package com.umang.portfolio.stockticker;
 
-
-
 /**
  * A pojo used to pass data around
  * @author umang
