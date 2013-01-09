@@ -21,4 +21,4 @@ Although all the source code is free, please be generous enough to drop an email
 
 # Bugs
 Please email me if there are any errors on bhatt.umang7@gmail.com
-Although I do not promise to solve bug in time, but would do when i get free.
+Although I do not promise to solve bug in time, but would do when i some time.
